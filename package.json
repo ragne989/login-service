@@ -1,0 +1,26 @@
+{
+    "name": "login-service",
+    "version": "1.0.0",
+    "description": "Ragne kodutoo,Lennar",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./server.js",
+        "dev": "export $(cat .env) && node ./server.js",
+        "start-dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.2.2",
+        "mongodb": "^3.0.10",
+        "mongoose": "^5.1.4",
+        "rootpath": "^0.1.2",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}
